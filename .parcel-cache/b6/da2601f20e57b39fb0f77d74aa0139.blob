@@ -102,7 +102,7 @@ body {
 
 .header {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(322604b6e8652cd9833b20cd0fc86c18);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(d953307b62569c1076562a0e277e6366);
   background-size: cover;
   display: flex;
   flex-direction: column; }
@@ -140,7 +140,7 @@ body {
   margin: 0 auto; }
 
 .section-skill {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(f616e22fd6d82edf2f0d26f23a2e7095);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(d1dd659390ac62541dc383960f182aec);
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -460,7 +460,7 @@ body {
     font-weight: 400; }
 
 .footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(0797e22d1c393a30266105e4e210a417);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(9621b40a844439a9912354bb2f3bf246);
   background-position: center;
   background-size: cover;
   padding: 10rem 2rem; }
