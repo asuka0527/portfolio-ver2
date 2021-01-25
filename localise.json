@@ -1,0 +1,48 @@
+{
+  "eng": {
+    "netflix": "This app is a Netflix-clone created with creat react app and context API, and react hooks. Compound component pattern was used in building this app. Used the styled component library to remove the mapping between components and styles by creating a normal React component that has styles attached to it. The firebase was use to support user sign up and sign in authentication. Deployed through heroku.",
+
+    "crown": "This is a e-commerce application similar to Shopify build with create react app, react-router, redux saga, persistence and session storage. Firebase firestore cloud database was used to store the products details. Firebase authentication for user sign up and sign in with gmail. Stripe API was integrated for processing credit card payments.",
+    "expensify": "Expensify is a react application that let's user track the their daily expenses. This app uses react-router and redux. Bundled with webpack and complied with babel toolchain to convert ECMAScript 2015+ code into backwards compatible version of JavaScript in current and older browser environments. Built with firebase database and authentication, users can login through their Google gmail account and see their expense entries accross multiple devices anytime and anywhere. The app is completely tested with Jest and Enzyme. Deployed through heroku platform.",
+    "forkify": "Forkify is a vanilla JavaScript application that interacts with the food2fork API to fetch and display recipe food data. Build through the MVC methodology. This app uses modern JavaScript tools, such as Parcel to bundle the modules, and Babel to convert ES6, ES7 and ES8 back to ES5. The user can search for a specific recipe, set serving size to adjust ingredients and bookmark favourite to save it via local storage.",
+
+    "mapty": "Mapty is a vanilla JavaScript application that use geolocation api to display user's current location. Users can log their running and cycling workouts corresponing to their current location. It also interacts with the leaflet API to fetch and display interactive map for plotting user workouts. This app uses modern JavaScript tools, such as Parcel to bundle the modules, and Babel to convert ES6, ES7 and ES8 back to ES5. The user logged wourkout details will be save via local storage.",
+
+    "natours": "Natours is a landing page for a fictional company that offers tours for the outdoors. This app was built using pure CSS, including many modern and up to date features. The layout is fully responsive for multiple screen widths. Uses Sass, which is a great extension of CSS that adds power and elegence to the language. The classes are named using the BEM system.",
+
+    "omni": "Omni food is landing page for a fictional food company that offers food delivery services with monthly membership plans accross different locations in the world. Created with HTML5, CSS3 and Jquery. A fully reponsive website site that can support users across different devices. I learned how to optimized website for good speed performance and search engines(SEO).",
+
+    "nexter": "Nexter is a landing page for a fictional Real estate company that offers buy and sell, property consultations for high-end properties around the world. This app was built with HTML5, CSS3 and JavaScript. The CSS grid was used to layout the entire page and it is fully responsive for multiple screen widths. Uses Sass, which is a great extension of CSS that adds power and elegence to the language. The classes are named using the BEM system.",
+
+    "pig": "This is a 2 player dice game application created with vanilla JavaScript. The object of the game is accumulate 100 point, players can also adjust the winning point through out the game. Each player will have a chance to roll or hold the dice. If the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn.",
+
+    "mystery": "This is a game application created with vanilla JavaScript. The objective of the game is to guess the mystery number. Every wroung guess will be a deduction to the score. Once the the player guesses the correct number the remaining score will be set as the high score.",
+
+    "todo": "A to do list app created with vanilla JavaScript. User can add and remove todos upon completion. The todos that have not been completed will be saved via local storage.",
+
+    "about": " I have been working as an interior designer for 2 years when the corona virus pandemic started. As the movement of people became restricted, I realized the importance and role of technology in the society. This realization led me to the path of becoming a frontend web developer. I want to be able to create web platforms that will support businesses and people in their daily life.I enrolled to different online courses (HTML, CSS, JS, React JS) that have provided me the knowledge I need to create progressive websites and web apps. Now, to re-enforce the knowledge I have acquired through these courses I have also started building my own web projects. Although I have no prior working experience in  this field. I am determined to continue this learning journey and be able to contribute to projects that will support businesses and people in the community."
+  },
+  "ja": {
+    "netflix": "このNetflixのクローンは、creat react app, context API、react-reduxで構築しました。このアプリの構築には、compound componentパターンを使用しました。又、Styled components を使用して、スタイルがアタッチされた通常のReactコンポーネントを作成することにより、コンポーネントとスタイル間のマッピングを削除しました。 ユーザーのサインアップとサインイン認証をサポートできるように、Firebaseを使用しました。 Herokuというクラウドベースのプラットフォームとして公開されています。",
+    "crown": "Crown clothingは、Shopifyのような EC サイトであり、creat react app、react-router、redux saga、永続性、セッションストレージを備えています。 Firebase Firestoreクラウドデータベースを使用して、製品の詳細を保存しました。ユーザーのFirebase認証は、Gmailでサインアップしてサインインします。 Stripe APIは、クレジットカード決済を処理するために統合されました",
+
+    "expensify": "Expensifyは、ユーザーの毎日の経費を管理するアプリケーションです。このアプリはreact-routerとreact−reduxを使用しています。 webpackにバンドルされ、babelツールチェーンに準拠しているため、ECMAScript2015 +コードを、現在および古いブラウザー環境と下位互換性のあるバージョンのJavaScriptに変換します。 Firebaseデータベースと認証を使用して構築されているため、ユーザーはGoogle gmailアカウントからログインして、いつでもどこでも複数のデバイスで経費のエントリデータを確認できます。アプリはJestとEnzymeで完全にテストされています。 herokuプラットフォームてして公開されています。",
+    "forkify": "Forkifyは、food2fork APIを利用し、様々なレシピ食品データを取得および表示するバニラJavaScriptアプリケーションです。 MVC方法論を通じて構築します。このアプリは、Parcelなどの最新のJavaScriptツールを使用し、モジュールをバンドルし、Babelを使用し、ES6、ES7、ES8をES5に変換します。ユーザーは特定のレシピを検索し、サービングサイズを設定して材料を調整し、お気に入りをブックマークしてローカルストレージに保存できます",
+
+    "mapty": "Maptyは、geolocation　APIを使用し、ユーザーの現在地を表示するバニラJavaScriptアプリケーションです。ユーザーは、現在の場所に対応するランニングとサイクリングのトレーニングをログに記録できます。また、leaflet　APIを使用し、ユーザーワークアウトをプロットするためのインタラクティブマップを取得して表示します。このアプリは、Parcelなどの最新のJavaScriptツールを使用してモジュールをバンドルし、Babelを使用し、ES6、ES7、ES8をES5に変換します。ユーザーが記録したワークアウトの詳細は、ローカルストレージにて保存されます。",
+
+    "natours": "Natoursは、アウトドアツアーを提供するフィクショナルの会社のランディングページです。このアプリは、多くの最新の機能を含む純粋なCSSを使用して構築されました。レイアウトは、レスポンシブデザインとなり複数のデバイス対応しています。言語にパワーとエレガンスを追加するCSSの優れた拡張機能であるSassを使用します。クラスには、BEMシステムを使用して名前が付けられます。",
+
+    "omni": "Omni Foodは、世界中で毎月のメンバーシッププランを備えたフードデリバリーサービスを提供するフィクショナルの会社のランディングページです。 HTML5、CSS3、Jqueryで作成されました。レイアウトは、レスポンシブデザインとなり複数のデバイス対応しています。優れた速度のパフォーマンスと検索エンジン（SEO）のためにウェブサイトを最適化する方法を学びました。",
+
+    "nexter": "Nexterは、世界中の高級不動産の売買、不動産コンサルティングを提供するフィクショナルの不動産会社のランディングページです。このサイトは、HTML5、CSS3、JavaScriptで構築されています。 CSSグリッドはページ全体のレイアウトに使用され、レスポンシブデザインとなり複数のデバイス対応しています。言語にパワーとエレガンスを追加するCSSの優れた拡張機能であるSassを使用します。クラスには、BEMシステムを使用して名前が付けられます。",
+
+    "pig": "これは、バニラJavaScriptで作成された2人用のダイスゲームアプリケーションです。ゲームの目的は100ポイントを貯めることであり、プレイをしながら、勝ちポイントを調整することもできます。各プレイヤーはダイスを振ったり、ホルドするチャンスがあります。プレイヤーが1を出した場合、彼のラウンドスコアはすべて失われます。その後、次のプレイヤーの番となります。",
+
+    "mystery": "これはバニラJavaScriptで作成されたゲームアプリケーションです。ゲームの目的は、謎の数を推測することです。すべての間違った推測はスコアへの控除になります。プレイヤーが正しい数字を推測すると、残りのスコアがハイスコアとして設定されます。",
+
+    "todo": "バニラJavaScriptで作成されたToDoリストのアプリです。ユーザーは、ToDoをエントリし、Todoが完了したら、リストから削除することができます。完了していないToDoは、ローカルストレージにて保存されます。",
+
+    "about": "私は2年間で、インテリアデザイナーとして働いていました。コロナの影響による、人々の動きが制限され、直接にお店へ行ったり、買い物したり、食べることなどが難しくなった社会の中で、技術の役割の重要性を感じしておりました。そこから、技術を利用し、飲食店や店舗運営、多くの企業を支えていきたいと考えています。 ウェブサイトやウェブアプリ開発の必要なスキルを得るため、HTML・CSS・JavaScript・ReactJSなどをオンラインスクールで勉強しておりました。そして現在、自分のプログラミングのスキルを磨くようにウェブプロジェクトを構築を続けています。 仕事としては未経験ではありますが、技術を学ぶ意欲を活かして、よりいっそう技術を身につけ、世の中の多くの人々に利用されるウェブアプリを作りたいと考えています。"
+  }
+}

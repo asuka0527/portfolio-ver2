@@ -1,0 +1,32 @@
+.header__text {
+  font-size: 8rem;
+  color: #fff;
+  font-weight: 400;
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  transform: translate(-45%, -35%);
+}
+
+.text-type {
+  margin-left: 4.5rem;
+  color: $color-tertiary;
+
+  @media only screen and (max-width: $bp-small) {
+    margin-top: 2rem;
+    margin-left: 0;
+  }
+}
+
+.text-type > .text {
+  border-right: 0.3rem solid $color-tertiary;
+}
+
+.typewriter {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  @media only screen and (max-width: $bp-small) {
+    left: 5%;
+  }
+}

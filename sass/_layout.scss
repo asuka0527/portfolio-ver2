@@ -1,0 +1,68 @@
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+.header {
+  height: 100vh;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../imgs/bg-new.jpg);
+
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  padding: 4rem;
+
+  transition: transform 1s, opacity 1s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__text--about {
+    color: $color-tertiary;
+  }
+
+  &__text--skill {
+    color: $color-secondary-light;
+  }
+}
+
+.section--hidden {
+  opacity: 0;
+}
+.section:last-child {
+  padding: 4rem 4rem 12rem 4rem;
+}
+
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 8rem auto;
+}
+
+.section-about {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($color-secondary, 0.85),
+    rgba($color-secondary-light, 0.85)
+  );
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.section-skill {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../imgs/bg-skills.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  margin: 0 auto;
+  padding-bottom: 20rem;
+}
